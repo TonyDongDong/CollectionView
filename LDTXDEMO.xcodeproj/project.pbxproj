@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0332FB78C90014F18607B376 /* libPods-LDTXDEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892B81BEA70D1FB4BBFFD425 /* libPods-LDTXDEMO.a */; };
 		81B9A596200D8FB500FAA581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A595200D8FB500FAA581 /* AppDelegate.m */; };
 		81B9A599200D8FB500FAA581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A598200D8FB500FAA581 /* ViewController.m */; };
 		81B9A59C200D8FB500FAA581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B9A59A200D8FB500FAA581 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		81B9A5A4200D8FB500FAA581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5A3200D8FB500FAA581 /* main.m */; };
 		81B9A5AE200D8FB500FAA581 /* LDTXDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5AD200D8FB500FAA581 /* LDTXDEMOTests.m */; };
 		81B9A5B9200D8FB500FAA581 /* LDTXDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5B8200D8FB500FAA581 /* LDTXDEMOUITests.m */; };
+		81B9A5CD200D906A00FAA581 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5C8200D906A00FAA581 /* CircleLayout.m */; };
+		81B9A5CE200D906A00FAA581 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5CA200D906A00FAA581 /* HomeHeaderView.m */; };
+		81B9A5CF200D906A00FAA581 /* ShowImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9A5CC200D906A00FAA581 /* ShowImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		81B9A5B4200D8FB500FAA581 /* LDTXDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTXDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B9A5B8200D8FB500FAA581 /* LDTXDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDTXDEMOUITests.m; sourceTree = "<group>"; };
 		81B9A5BA200D8FB500FAA581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B9A5C7200D906A00FAA581 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		81B9A5C8200D906A00FAA581 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		81B9A5C9200D906A00FAA581 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		81B9A5CA200D906A00FAA581 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		81B9A5CB200D906A00FAA581 /* ShowImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageCell.h; sourceTree = "<group>"; };
+		81B9A5CC200D906A00FAA581 /* ShowImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageCell.m; sourceTree = "<group>"; };
+		892B81BEA70D1FB4BBFFD425 /* libPods-LDTXDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDTXDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A395B35FACD3E44EEC4C668D /* Pods-LDTXDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTXDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDTXDEMO/Pods-LDTXDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		E7E72BD34BD70625DC509BCE /* Pods-LDTXDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTXDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDTXDEMO/Pods-LDTXDEMO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0332FB78C90014F18607B376 /* libPods-LDTXDEMO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E526BF6A2849537C968FC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892B81BEA70D1FB4BBFFD425 /* libPods-LDTXDEMO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81B9A588200D8FB500FAA581 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				81B9A5AC200D8FB500FAA581 /* LDTXDEMOTests */,
 				81B9A5B7200D8FB500FAA581 /* LDTXDEMOUITests */,
 				81B9A592200D8FB500FAA581 /* Products */,
+				87FFC83AB81375844CE4DAA1 /* Pods */,
+				2E526BF6A2849537C968FC41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,7 @@
 		81B9A593200D8FB500FAA581 /* LDTXDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				81B9A5C6200D906A00FAA581 /* homeHeaderView */,
 				81B9A594200D8FB500FAA581 /* AppDelegate.h */,
 				81B9A595200D8FB500FAA581 /* AppDelegate.m */,
 				81B9A597200D8FB500FAA581 /* ViewController.h */,
@@ -132,6 +157,28 @@
 			path = LDTXDEMOUITests;
 			sourceTree = "<group>";
 		};
+		81B9A5C6200D906A00FAA581 /* homeHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				81B9A5C7200D906A00FAA581 /* CircleLayout.h */,
+				81B9A5C8200D906A00FAA581 /* CircleLayout.m */,
+				81B9A5C9200D906A00FAA581 /* HomeHeaderView.h */,
+				81B9A5CA200D906A00FAA581 /* HomeHeaderView.m */,
+				81B9A5CB200D906A00FAA581 /* ShowImageCell.h */,
+				81B9A5CC200D906A00FAA581 /* ShowImageCell.m */,
+			);
+			path = homeHeaderView;
+			sourceTree = "<group>";
+		};
+		87FFC83AB81375844CE4DAA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E72BD34BD70625DC509BCE /* Pods-LDTXDEMO.debug.xcconfig */,
+				A395B35FACD3E44EEC4C668D /* Pods-LDTXDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81B9A5BD200D8FB500FAA581 /* Build configuration list for PBXNativeTarget "LDTXDEMO" */;
 			buildPhases = (
+				1188C2541452B1CF170C41C1 /* [CP] Check Pods Manifest.lock */,
 				81B9A58D200D8FB500FAA581 /* Sources */,
 				81B9A58E200D8FB500FAA581 /* Frameworks */,
 				81B9A58F200D8FB500FAA581 /* Resources */,
+				25F5CE2579A2DB086F8F9596 /* [CP] Embed Pods Frameworks */,
+				CF50B230FE3757F8BB36DE4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +310,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1188C2541452B1CF170C41C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDTXDEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F5CE2579A2DB086F8F9596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LDTXDEMO/Pods-LDTXDEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF50B230FE3757F8BB36DE4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LDTXDEMO/Pods-LDTXDEMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81B9A58D200D8FB500FAA581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B9A5CE200D906A00FAA581 /* HomeHeaderView.m in Sources */,
 				81B9A599200D8FB500FAA581 /* ViewController.m in Sources */,
+				81B9A5CD200D906A00FAA581 /* CircleLayout.m in Sources */,
 				81B9A5A4200D8FB500FAA581 /* main.m in Sources */,
+				81B9A5CF200D906A00FAA581 /* ShowImageCell.m in Sources */,
 				81B9A596200D8FB500FAA581 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +532,7 @@
 		};
 		81B9A5BE200D8FB500FAA581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E72BD34BD70625DC509BCE /* Pods-LDTXDEMO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +546,7 @@
 		};
 		81B9A5BF200D8FB500FAA581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A395B35FACD3E44EEC4C668D /* Pods-LDTXDEMO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
